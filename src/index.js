@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import GitExpertApp from './GitExpertApp';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <GitExpertApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
