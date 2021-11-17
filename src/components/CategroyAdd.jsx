@@ -7,6 +7,8 @@ const CategroyAdd = ({ setcategories }) => {
   const handleInputChange = ({ target }) => {
     console.log(target.value);
     setinputValue(target.value);
+
+    console.log('Hay un cambio');
   };
 
   const handleSubmit = (e) => {
