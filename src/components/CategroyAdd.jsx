@@ -5,10 +5,7 @@ const CategroyAdd = ({ setcategories }) => {
   const [inputValue, setinputValue] = useState('');
 
   const handleInputChange = ({ target }) => {
-    console.log(target.value);
     setinputValue(target.value);
-
-    console.log('Hay un cambio');
   };
 
   const handleSubmit = (e) => {
