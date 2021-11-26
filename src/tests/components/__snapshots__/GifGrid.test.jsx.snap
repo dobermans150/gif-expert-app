@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Pruebas GifGrid.jsx Debe  de retornar un component  1`] = `
-<div
-  className="card animate__animated animate__bounce"
->
-  <img
-    alt="one punch GIF by Adult Swim"
-    src="https://media1.giphy.com/media/l3vRlt8kty8KKeHni/giphy.gif?cid=12100ec9lzk6gum9djjurk3i209s81k9ktrp8luz4haam66q&rid=giphy.gif&ct=g"
-  />
+exports[`Pruebas GifGrid Debe de retornar un gif grid con sus items necesarios 1`] = `
+<Fragment>
+  <h3>
+    one punch
+  </h3>
   <p>
-    one punch GIF by Adult Swim
+    Loading...
   </p>
-</div>
+  <div
+    className="card-grid"
+  />
+</Fragment>
 `;

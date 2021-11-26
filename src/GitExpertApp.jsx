@@ -1,10 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { useState } from 'react/cjs/react.development';
 import CategroyAdd from './components/CategroyAdd';
 import GifGrid from './components/GifGrid';
 
 const GitExpertApp = () => {
-  const [categories, setcategories] = useState(['One Punch']);
+  const [categories, setcategories] = useState(['one punch']);
 
   const handleAdd = () => {
     setcategories([...categories, 'Hunter X Hunter']);
